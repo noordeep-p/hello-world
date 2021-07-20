@@ -1,0 +1,18 @@
+let i      = {};
+i.am       = 'Noor :) enrolled in Algoma University Comp. Sci & LHL Web Dev. Bootcamp';
+i.usedto   = ['be a security guard', 'roadtrip across canada', 'drive 18 wheelers', 'college student'];
+i.love     = ['family', 'coding', 'long drives', 'travel', 'solving logic challenges', 'meaningful work'];
+i.workWith = ['HTML/ CSS', 'Javascript', 'node.js', 'react.js', "ruby on rail's", 'fun & open minded people'];
+i.aspire   = 'To become a Software Engineer and create meaningful change in the world';
+
+
+
+/*Ever since I was a little kid, Software Development and Engineering have been my passion. I still remember sitting in front of my Windows XP Desktop computer, with a basic online JSFiddle loaded, and learning how to print "Hello, Noor" for the very first time using Javascript. As I got older I decided to keep learning the basics of coding through online tutorials. It still felt almost like magic every time, being able to get the computer to do whatever I wanted, just by typing in these little symbols, limited only by my own imagination and creativity. Throughout middle and high school, I latched on to Engineering Technology and developed a passion for learning technical skills. Then I decided to pursue an education as a Robotics Technologist as I loved technology and this seemed like a perfect fit, but again I discovered as I came to the near of my Robotics Technician Diploma program that my passion for Software Development was far greater than the hardware side of robotics. I would spend hours in the robotics lab of my college programming robots using the RAPID programming language to do different jobs, and improving my code's efficiency. And then with the advent of a global pandemic, and the remote flexibility and security provided by a career in Software Development. Changed my mind and convinced me to focus completely on my first passion for Software Development.
+
+Thus the pursuit of my first passion landed me in Algoma Universities Computer Science Program and Lighthouse Labs Web Development Bootcamp. Here there were more resources available to me than I could ever have imagined to continue following my passion. I study new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination that drove me as a kid and coming to the realization of how much there was yet to learn.
+
+So, now, As I continue pursuing a career in Software Development, this passion remains with me. There's certainly more to learn, more problems to solve, more software to develop and fun people to meet. And for this, I am very excited.
+
+Currently Learning:
+Languages: JavaScript, Ruby on Rails, Node.js, React.js, HTML & CSS.
+Academic: System Programming, Algorithms, Distributed Systems*/
