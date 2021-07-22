@@ -2,17 +2,14 @@ const loopyLighthouse = function(range, multiples, words) {
   const outputArry = [];
   for (let i = range[0]; i <= range[1]; i++) {
     if (i % multiples[0] === 0 && i % multiples[1] === 0) {
-      outputArry.push(words[0] + words[1] + '\n');
+      outputArry.push(words[0] + words[1]);
     } else if (i % multiples[0] === 0) {
-      outputArry.push(words[0] + '\n');
+      outputArry.push(words[0]);
     } else if (i % multiples[1] === 0) {
-      outputArry.push(words[1] + '\n');
-    } else outputArry.push(i + '\n');
+      outputArry.push(words[1]);
+    } else outputArry.push(i);
   }
-  let finalOutput = outputArry[outputArry.length - 1].slice(0,-1);
-  outputArry.pop();
-  outputArry.push(finalOutput);
-  return console.log(outputArry.join(''));
+  return console.log(outputArry.join('\n'));
 };
 
 loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]);
