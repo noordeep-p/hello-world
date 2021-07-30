@@ -1,20 +1,18 @@
-const camelCase = function(input){
+const camelCase = function(text) {
   let newCase = [];
-  let indexOfDl = [];
-  for(let i = 0; i < input.length; i++){
-    newCase.push(input[i])
-    if(input[i] === " "){
-      newCase.splice(i, 1, input[i + 1].toUpperCase());
-      indexOfDl.push(i + 1);      
+  let index = [];
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === " ") {
+      newCase.push(text[i + 1].toUpperCase());
+      index.push(i + 1);
+    } else {
+      newCase.push(text[i]);
     }
   }
-  for(let i = 0; i < indexOfDl.length; i++){
-    newCase.splice(indexOfDl[i], 1)
-    for(let i = 0; i < indexOfDl.length; i++){
-      indexOfDl[i] = indexOfDl[i] - 1;
-    }
-  } 
-  return newCase.join('');
+  for (let i = 0; i < index.length; i++) {
+    newCase[index[i]] = "";
+  }
+  return (newCase.join(''));
 };
 
 console.log(camelCase("this is a string"));
