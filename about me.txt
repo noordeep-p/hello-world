@@ -15,4 +15,4 @@ So, now, As I continue pursuing a career in Software Development, this passion r
 
 Currently Learning:
 Languages: JavaScript, Ruby on Rails, Node.js, React.js, HTML & CSS.
-Academic: System Programming, Algorithms, Distributed Systems*/
+Academic: System Programming, Algorithms, Distributed Systems*/ 
