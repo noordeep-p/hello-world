@@ -3,10 +3,10 @@ const instructorWithLongestName = function(instructors) {
   let longestName = {
     name: '',
     course: ''
-  }
+  };
 
-  for(const instructor of instructors){
-    if (instructor.name.length > nameLong){
+  for (const instructor of instructors) {
+    if (instructor.name.length > nameLong) {
       nameLong = instructor.name.length;
       longestName.name = instructor.name;
       longestName.course = instructor.course;

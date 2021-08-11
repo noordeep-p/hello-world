@@ -1,13 +1,13 @@
-const repeatNumbers = function(data){
+const repeatNumbers = function(data) {
   let finalNums = [];
-  for(let i = 0; i < data.length; i++){
+  for (let i = 0; i < data.length; i++) {
     let line = '';
-    for(let j = 0; j < data[i][1]; j++){
-      line += data[i][0]
+    for (let j = 0; j < data[i][1]; j++) {
+      line += data[i][0];
     }
-    finalNums.push(line);    
+    finalNums.push(line);
   }
-  console.log(finalNums.join(', '));     
+  console.log(finalNums.join(', '));
 };
 
 

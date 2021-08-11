@@ -3,19 +3,19 @@ const organizeInstructors = function(instructors) {
   let instrucWeb = [];
   let instrucBlockchain = [];
   let orgInstruc = {};
-  for(instructor of instructors){
-    if(instructor.course === "iOS"){
-      instrucIos.push(instructor.name)
+  for (const instructor of instructors) {
+    if (instructor.course === "iOS") {
+      instrucIos.push(instructor.name);
       orgInstruc.iOS = instrucIos;
     }
-    if(instructor.course === "Web"){
+    if (instructor.course === "Web") {
       instrucWeb.push(instructor.name);
       orgInstruc.Web = instrucWeb;
     }
-    if(instructor.course === "Blockchain"){
+    if (instructor.course === "Blockchain") {
       instrucBlockchain.push(instructor.name);
       orgInstruc.Blockchain = instrucBlockchain;
-    }    
+    }
   }
   return orgInstruc;
 };
